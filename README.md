@@ -1,7 +1,8 @@
 # Django Projects Collection
 
 This repository is a collection of various Django projects, each showcasing different functionalities and applications built using the Django web framework. The repository will serve as a learning and experimentation space, starting with a blog application and expanding to other projects over time.
-Table of Contents
+
+## Table of Contents
 * Overview
 * Projects
   * Blog Application
