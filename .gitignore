@@ -1,0 +1,66 @@
+# Python related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django specific files
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# If you are using the Django `settings_local.py` pattern to separate production and development settings
+settings_local.py
+
+# Virtual environment folder
+env/
+venv/
+ENV/
+
+# Visual Studio Code and PyCharm settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS specific files
+.DS_Store
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.~*
+
+# Git specific
+*.orig
+
+# Docker related files
+docker-compose.override.yml
+Dockerfile
+*.dockerfile
+.dockerignore
+# Ignore Docker build cache
+**/cache/
+**/tmp/
+
+# Docker volumes and containers
+volumes/
+containers/
+
+# Logs, temp files, and other docker-related files
+*.log
+*.pid
+*.pid.lock
