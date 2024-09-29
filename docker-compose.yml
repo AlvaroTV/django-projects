@@ -1,0 +1,11 @@
+
+# Containers
+services:
+  django-p3:
+    container_name: project3
+    image: my_django_img:1.1
+    ports: 
+      - 8003:8000
+    volumes: 
+      - .:/home/app
+    command: python manage.py runserver 0.0.0.0:8000
