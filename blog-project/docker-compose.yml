@@ -2,7 +2,7 @@
 # Containers
 services:
   django-p3:
-    container_name: project3
+    container_name: project3_new
     image: my_django_img:1.1
     ports: 
       - 8003:8000
